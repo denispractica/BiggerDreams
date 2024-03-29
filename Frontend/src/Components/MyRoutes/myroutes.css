@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.customImage {
+  margin: auto;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.5);
+}
+
+.input {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30vh;
+}
+.input > input {
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.input > input:focus {
+  box-shadow: 0px 0px 3px 2px rgba(255, 255, 255, 0.5);
+}
